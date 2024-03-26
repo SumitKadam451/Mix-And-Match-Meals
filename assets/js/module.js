@@ -1,13 +1,11 @@
-
 "use strict";
-
 
 /**
  * @param {Number} minute Cooking time
  * @returns {String}
  */
 
-export const getTime = minute => {
+export const getTime = (minute) => {
   const /** {Number} */ hour = Math.floor(minute / 60);
   const /** {Number} */ day = Math.floor(hour / 24);
 
@@ -16,4 +14,4 @@ export const getTime = minute => {
   const /** {String} */ timeUnit = ["days", "hours", "minutes"][unitIndex];
 
   return { time, timeUnit };
-}
+};
