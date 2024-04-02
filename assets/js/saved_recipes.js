@@ -25,7 +25,7 @@ if (savedRecipes.length) {
 
     const /** {String} */ recipeId = uri.slice(uri.lastIndexOf("_") + 1);
     const /** {undefined || String} */ isSaved = window.localStorage.getItem(
-        `cookio-recipe${recipeId}`
+        `recipe${recipeId}`
       );
 
     const /** {NodeElement} */ $card = document.createElement("div");
