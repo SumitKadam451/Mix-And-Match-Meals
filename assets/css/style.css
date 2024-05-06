@@ -342,15 +342,6 @@ main {
   gap: 12px 8px;
 }
 
-.img-holder {
-  background-color: var(--image-background);
-  background-image: url("../images/image-placeholder.svg");
-  background-repeat: no-repeat;
-  background-size: 30%;
-  background-position: center;
-  overflow: hidden;
-}
-
 .img-cover {
   width: 100%;
   height: 100%;
