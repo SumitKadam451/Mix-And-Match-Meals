@@ -128,35 +128,27 @@
       <article>
         <!-- #HERO -->
         <section class="hero" aria-label="banner">
-          <div class="banner-card">
-            <h1 style="color: rgb(255, 255, 255)" class="display-large">
-              Let Mix and Match Meals be your guide!
-            </h1>
+          <div class="search-wrapper" data-search-form>
+            <span
+              class="material-symbols-outlined leading-icon"
+              aria-hidden="true"
+              >local_dining</span
+            >
 
-            <div class="search-wrapper" data-search-form>
-              <span
-                class="material-symbols-outlined leading-icon"
-                aria-hidden="true"
-                >local_dining</span
+            <input
+              type="search"
+              name="search"
+              aria-label="Search recipes"
+              placeholder="Search recipes..."
+              class="search-field body-medium"
+              data-search-field
+            />
+
+            <button class="search-submit" aria-label="Submit" data-search-btn>
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >search</span
               >
-
-              <input
-                type="search"
-                name="search"
-                aria-label="Search recipes"
-                placeholder="Search recipes..."
-                class="search-field body-medium"
-                data-search-field
-              />
-
-              <button class="search-submit" aria-label="Submit" data-search-btn>
-                <span class="material-symbols-outlined" aria-hidden="true"
-                  >search</span
-                >
-              </button>
-            </div>
-
-            <p class="display-small">You name it we find it !</p>
+            </button>
           </div>
         </section>
 
