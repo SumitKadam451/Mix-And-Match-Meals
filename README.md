@@ -30,7 +30,7 @@
 
 ## Screenshots
 
-![App Screenshot](https://github.com/SumitKadam451/Mix-And-Match-Meals/blob/main/Screenshot-m-1.png)
+![App Screenshot](https://github.com/SumitKadam451/Mix-And-Match-Meals-/blob/main/main-page.png)
 
 ![App Screenshot](https://github.com/SumitKadam451/Mix-And-Match-Meals/blob/main/Screenshot-m2.png)
 
